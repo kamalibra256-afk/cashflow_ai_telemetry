@@ -10,7 +10,7 @@ from pathlib import Path
 from config import DB_PATH
 from main import run_full_pipeline
 
-if not path{DB_PATH}.exists():
+if not Path{DB_PATH}.exists():
     run_full_pipeline()
 
 st.set_page_config(page_title= "AI Cash-Flow Telemetry & Underwriting Portal", layout="wide")
